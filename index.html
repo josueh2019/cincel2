@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <title>Encuesta Satisfaccion Cincel</title>
+</head>
+<div class="has-text-centered">
+  <header>
+    <img src="./images/logocincel.png" alt="logocincel">
+    <h1>prueba liderazgo | toUpperCase</h1>
+  </header>
+</div>
+
+<body>
+  <div class="container">
+    <div class="has-text-centered">En <strong>Cincel</strong> estamos construyendo un instrumento para la valoracion del
+      estilo de
+      liderazgo.Esto
+      requiere una etapa previa que permita analizar la confiabilidad y validez de un instrumento de medicion y de los
+      ítems que lo componen,y estandarizar las escalas de medida.Para cumplir con este propósito necesitamos recolectar
+      un
+      amplio número de respuestas,tanto de la versión que responden los líderes como de la que responden los
+      colaboradores.
+      Tenga presente que todas las respuestas que nos proporcione serán tratadas de manera confidencial y anónima,pues
+      no
+      se expondrá los datos que brinde.La información sera almacenada en un medio electrónicobajo la responsabilidad de
+      los consultores.De este primer ejercicio no se entregará resultados.
+    </div>
+    <div>
+      <br>
+      <strong>Al decidir participar usted certifica que:</strong>
+      <br>
+
+      - Lo hace libre y voluntariamente.
+      <br>
+      - Se respondieron sus inquietudes.
+      <br>
+      - Comprende el propósito de esta encuesta.
+      <br>
+      - Será honesto al responder.
+      <br>
+      - Autoriza que la información podrá ser utilizada para efectos de investigación en psicología organizacional.
+      <br>
+      <br>
+
+      <h4>
+        <span><strong>¿Esta de acuerdo con participar?</strong></span>
+      </h4>
+      <br>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="rsvp">
+          Si
+        </label>
+        <br>
+        <label class="radio">
+          <input type="radio" name="rsvp">
+          No
+        </label>
+      </div>
+      <br>
+      <div class="has-text-centered">
+        <button @click="" class="button is-primary">Siguiente</button>
+      </div>
+
+    </div>
+  </div>
+  <div id="app">
+    <h2>comportamientos evaluacion colaboradores.</h2>
+    <p>{{ questions }}</p>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
